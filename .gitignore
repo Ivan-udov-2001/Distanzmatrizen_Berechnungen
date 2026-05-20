@@ -1,0 +1,59 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Virtual environments
+# ----------------------------
+.venv/
+venv/
+env/
+
+# ----------------------------
+# OS / editor files
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ----------------------------
+# Logs / temp
+# ----------------------------
+*.log
+*.tmp
+*.temp
+
+# ----------------------------
+# Archives
+# ----------------------------
+*.zip
+*.tar
+*.gz
+
+# ----------------------------
+# Generated outputs (reproducible via pipeline)
+# ----------------------------
+Heatmaps/
+Histogramme/
+grid_outputs/
+
+# ----------------------------
+# Large binary artifacts
+# ----------------------------
+*.pkl
+*.pickle
+
+# ----------------------------
+# Data
+# ----------------------------
+# Pseudonymisierte Rohdaten bleiben im Repo:
+# data/
