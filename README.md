@@ -2,7 +2,7 @@
 Berechnung von Kundendistanzen für PFERD TOOLS auf Basis von NAICS-, HS- und Applikations-/Materialcodes.
 ## Projektstruktur
 
-
+```text
 .
 ├── README.md
 ├── requirements.txt
