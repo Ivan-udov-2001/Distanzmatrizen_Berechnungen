@@ -2,11 +2,11 @@
 Dieses Repository enthält den Code zur Berechnung paarweiser Kundendistanzmatrizen für PFERD TOOLS auf Basis von drei Feature-Gruppen: NAICS-Branchencodes, HS-Handelscodes und Applikationscodes.
 Der Workflow gliedert sich in drei domänenspezifische Distanz-Engines, die unabhängig voneinander ausgeführt werden können:
 
-NAICS-Distanzen — Ziffernbasierte Metriken (Hamming, gewichtetes Hamming, LCP, Block-Gewichtung) auf Primary- und Secondary-NAICS-Codes mit konfigurierbarem Gating und Alpha-Penalty
+NAICS-Distanzen: Ziffernbasierte Metriken (Hamming, gewichtetes Hamming, LCP, Block-Gewichtung) auf Primary- und Secondary-NAICS-Codes mit konfigurierbarem Gating und Alpha-Penalty
 
-HS-Distanzen — Zwei Berechnungswege: eine Set-Engine (Jaccard, Dice, Overlap inkl. IDF-gewichteter Varianten) und eine Punkt-Engine (Cartesian Mean, Chamfer, kNN) auf normalisierten HS6-Ziffern-Arrays
+HS-Distanzen: Zwei Berechnungswege: eine Set-Engine (Jaccard, Dice, Overlap inkl. IDF-gewichteter Varianten) und eine Punkt-Engine (Cartesian Mean, Chamfer, kNN) auf normalisierten HS6-Ziffern-Arrays
 
-Applikations-Distanzen — Gleiche Zwei-Engine-Architektur wie HS, angewandt auf den Applikationsteil der AM-Codes mit optionalem produktspezifischen Filter
+Applikations-Distanzen: Gleiche Zwei-Engine-Architektur wie HS, angewandt auf den Applikationsteil der AM-Codes mit optionalem produktspezifischen Filter
 
 Zusätzlich enthält das Repository eine Grid-Search-Schicht (parameter_grid), die systematisch Distanzmatrizen über alle Parameterkombinationen erzeugt, als .pkl persistiert und in einer Registry dokumentiert. Ein Konvertierungsmodul (convert_to_long) überführt quadratische Matrizen ins Long-Format für die nachgelagerte Analyse.
 ## Projektstruktur
