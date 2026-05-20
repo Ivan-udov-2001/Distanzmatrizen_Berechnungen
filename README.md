@@ -1,5 +1,5 @@
 # Berechnungen von Distanzmatrizen für verschiedene Feature-Gruppen
-Berechnung von Kundendistanzen für PFERD TOOLS auf Basis von NAICS-, HS- und Applikations-/Materialcodes.
+Berechnung von Kundendistanzen für PFERD TOOLS auf Basis von NAICS-, HS- und Applikations-Codes.
 ## Projektstruktur
 
 ```text
