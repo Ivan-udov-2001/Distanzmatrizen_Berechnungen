@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "berechnung-von-distanzmatrizen"
+version = "0.1.0"
+description = "Berechnung von Kundendistanzen für die Feature-Gruppen NAICS-, HS- und APP-Codes"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
