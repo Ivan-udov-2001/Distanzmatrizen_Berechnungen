@@ -1,5 +1,5 @@
 # Berechnungen von Distanzmatrizen für verschiedene Feature-Gruppen
-Dieses Repository enthält den Code zur Berechnung paarweiser Kundendistanzmatrizen für PFERD TOOLS auf Basis von drei Feature-Gruppen: NAICS-Branchencodes, HS-Handelscodes und Applikations-Codes.
+Dieses Repository enthält den Code zur Berechnung paarweiser Kundendistanzmatrizen für PFERD TOOLS auf Basis von drei Feature-Gruppen: NAICS-Branchencodes, HS-Handelscodes und Applikationscodes.
 Der Workflow gliedert sich in drei domänenspezifische Distanz-Engines, die unabhängig voneinander ausgeführt werden können:
 
 NAICS-Distanzen — Ziffernbasierte Metriken (Hamming, gewichtetes Hamming, LCP, Block-Gewichtung) auf Primary- und Secondary-NAICS-Codes mit konfigurierbarem Gating und Alpha-Penalty
