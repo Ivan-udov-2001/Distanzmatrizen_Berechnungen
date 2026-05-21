@@ -8,7 +8,7 @@ HS-Distanzen: Zwei Berechnungswege: eine Set-Engine (Jaccard, Dice, Overlap inkl
 
 Applikations-Distanzen: Gleiche Zwei-Engine-Architektur wie HS, angewandt auf den Applikationsteil der AM-Codes mit optionalem produktspezifischen Filter
 
-Zusätzlich enthält das Repository eine Grid-Search-Schicht (parameter_grid), die systematisch Distanzmatrizen über alle Parameterkombinationen erzeugt, als .pkl persistiert und in einer Registry dokumentiert. Ein Konvertierungsmodul (convert_to_long) überführt quadratische Matrizen ins Long-Format für die nachgelagerte Analyse.
+Zusätzlich enthält das Repository eine Grid-Search-Schicht (parameter_grid), die systematisch Distanzmatrizen über alle Parameterkombinationen erzeugt, als .pkl persistiert und in einer Registry dokumentiert.
 ## Projektstruktur
 
 ```text
