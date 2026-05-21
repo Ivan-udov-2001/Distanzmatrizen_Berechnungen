@@ -23,7 +23,6 @@ Zusätzlich enthält das Repository eine Grid-Search-Schicht (parameter_grid), d
 ├── src/
 │   ├── __init__.py
 │   ├── application.py
-│   ├── convert_to_long.py
 │   ├── core_metrics.py
 │   ├── hs.py
 │   ├── naics.py
@@ -51,22 +50,3 @@ Zusätzlich enthält das Repository eine Grid-Search-Schicht (parameter_grid), d
 │
 ├── scripts/
 │   └── pipeline.ipynb
-│
-├── grid_outputs/
-│   ├── APP/
-│   │   └── APP_long/
-│   ├── HS/
-│   │   └── HS_long/
-│   └── NAICS/
-│       ├── NAICS_long/
-│       └── NAICS_square.zip
-│
-├── Histogramme/
-│   ├── APP/
-│   ├── HS/
-│   └── NAICS/
-│
-└── Heatmaps/
-    ├── APP/
-    ├── HS/
-    └── NAICS/
